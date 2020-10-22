@@ -1,0 +1,40 @@
+.header__top{
+  text-align: center;
+  background: #FFDAB9;
+  position: relative;
+  height: 50px;
+}
+
+.header__top--logo{
+  margin: .5em;
+
+}
+
+.navbar__top{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.navbar__top ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar__top li{
+  display: inline-block;
+  margin: 18px 40px 0 20px;
+}
+
+.navbar__top li:nth-child(4){
+  margin-right: 50px;
+}
+
+.navbar__top a{
+  display: inline-block;
+  text-decoration: none;
+}

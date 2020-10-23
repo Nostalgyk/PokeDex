@@ -1,13 +1,21 @@
+* {
+  font-family: monospace;
+}
+
 .header__top{
   text-align: center;
-  background: #FFDAB9;
+  background: #f58e32;
   position: relative;
-  height: 50px;
+  height: 70px;
 }
 
 .header__top--logo{
-  margin: .5em;
+  margin: 20px 0 0 80px;
+  float: left;
+}
 
+.navbar__top{
+  margin-top: 10px;
 }
 
 .navbar__top{
@@ -27,7 +35,7 @@
 
 .navbar__top li{
   display: inline-block;
-  margin: 18px 40px 0 20px;
+  margin: 16px 40px 0 10px;
 }
 
 .navbar__top li:nth-child(4){
@@ -35,6 +43,18 @@
 }
 
 .navbar__top a{
-  display: inline-block;
+  display: block;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px black;
   text-decoration: none;
+}
+
+.navbar__top a:hover{
+  border-bottom: 1px solid white;
+  color: #2a2a60;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+  transition: all .5s ease .2s;
+  transition-delay: .1s;
 }

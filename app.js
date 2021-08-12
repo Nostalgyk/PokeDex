@@ -8,7 +8,9 @@ const fetchPokemon = () => {
     }
 
     Promise.all(pokemonPromises)
-    
+        .then(pokemons => {
+            console.log(pokemons)
+        })
 }
 
 fetchPokemon();

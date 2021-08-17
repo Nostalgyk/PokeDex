@@ -1,101 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <!-- Início da head -->
-
-    <title>Study Page</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/normalize.css" rel="stylesheet">
-
-  <!-- Fim da head -->
+  <meta charset="UTF-8">
+  <title>PokeDex</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
 </head>
-
 <body>
-  <!-- Início do header -->
 
-  <header class="header__top clearfix">
-    <div class="maxwidth">
-        <img src="" alt="Logo" class="header__top--logo">
-
-        <nav class="navbar__top">
-            <ul>
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Produtos</a></li>
-              <li><a href="#">Nossas lojas</a></li>
-              <li><a href="#">Suporte</a></li>
-            </ul>
-        </nav>
-    </div>
-  </header>
-
-  <!-- Fim do header -->
-
-  <!-- Começo da main com sections -->
-
-  <main class="main__content">
-    <section class="section__top">
-      <div class="maxwidth">
-          <h1>Chef's Talent</h1>
-          <h2>O melhor, sempre.</h2>
-      </div>
-    </section>
-
-    <hr>
-
-    <section class="section__mid">
-      <div class="maxwidth">
-
-        <article class="main__article--col-1_4">
-          <span class=""></span>
-          <h3 class="mid__title">Strogonoff da Casa</h3>
-          <p>Aqui vai ficar a descrição sobre o Strogonoff da Casa</p>
-        </article>
-
-        <article class="col-1_4">
-          <span class=""></span>
-          <h3 class="mid__title">Strogonoff da Casa</h3>
-          <p>Aqui vai ficar a descrição sobre o Strogonoff da Casa</p>
-        </article>
-
-        <article class="col-1_4">
-          <span class=""></span>
-          <h3 class="mid__title">Strogonoff da Casa</h3>
-          <p>Aqui vai ficar a descrição sobre o Strogonoff da Casa</p>
-        </article>
-
-        <article class="col-1_4">
-          <span class=""></span>
-          <h3 class="mid__title">Strogonoff da Casa</h3>
-          <p>Aqui vai ficar a descrição sobre o Strogonoff da Casa</p>
-        </article>
-
-      </div>
-    </section>
-
-    <section class="section__mid--row">
-      <div class="maxwidth">
-        <article class="mid__article--col-1_2">
-          <h3 class="mid__article--title">Aqui vai ter alguma coisa</h3>
-          <p>E aqui vai ter a descrição de alguma coisa</p>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <!-- Fim da main com sections -->
-
-  <!-- Começo do footer -->
-  <footer class="footer">
-    <ul class="footer__social-media">
-        <li><a href="#" class="icon-facebook"><span class="hidden">Facebook</span></a></li>
-        <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
-    </ul>
-
-    <p> &copy;Chef's Talent - All Rights Reserved</p>
-    <p></p>
-  </footer>
-  <!-- Fim do footer -->
+  <div class="container">
+    <h1>Pokedex</h1>
+    <ul data-js="pokedex" class="pokedex"></ul>
+  </div>
+  
+  <script src="./app.js"></script>
 </body>
-
 </html>

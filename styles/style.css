@@ -63,6 +63,10 @@ h1 {
 	background-color: #FCF7DE;
 }
 
+.ghost {
+	background-color: #ffcaff9f;
+}
+
 .water, .ice {
 	background-color: #DEF3FD;
 }

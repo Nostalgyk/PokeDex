@@ -1,3 +1,3 @@
 # PokeDex
 
-Começando...
+The Pokedex Project has been successfully completed!

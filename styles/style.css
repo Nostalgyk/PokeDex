@@ -12,6 +12,8 @@ body {
 }
 
 h1 {
+	text-shadow: 4px 3px rgba(255, 62, 50, 0.8);
+	margin: 0 0 25px 0;
 	text-align: center;
 	font-size: 54px;
 }
@@ -25,7 +27,7 @@ h1 {
 
 .card {
 	list-style: none;
-	padding: 40px;
+	padding: 20px;
 	color: #222;
 	text-align: center;
 	border-radius: 20px;
@@ -34,15 +36,15 @@ h1 {
 
 .card::after {
 	content: "";
-  display: block;
-  width: 50%;
-  height: 45%;
-  border-radius: 100%;
-  background-color: #fff;
-  opacity: .7;
-  position: absolute;
-  top: 15%;
-  left: 25%;
+	display: block;
+	width: 50%;
+	height: 45%;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	opacity: .7;
+	position: absolute;	
+	top: 15%;
+	left: 25%;
 }
 
 .steel {
@@ -111,7 +113,7 @@ h1 {
 
 .card-title {
 	text-transform: capitalize;
-	margin-bottom: 0px;
+	margin: 10px 0 0 0;
 	font-size: 32px;
 	font-weight: normal;
 	position: relative;
